@@ -76,7 +76,9 @@ export default function PublicRouter() {
   };
   return (
     <>
-      <BrowserRouter>{getTemplate()}</BrowserRouter>
+      <BrowserRouter>
+        <TutorPage />
+      </BrowserRouter>
     </>
   );
 }
